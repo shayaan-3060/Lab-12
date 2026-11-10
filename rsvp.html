@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Fest 2026 - RSVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>TECH FEST 2026</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="venue.html">Venue</a>
+        <a href="rsvp.html">RSVP</a>
+    </nav>
+
+    <h2>Register for Tech Fest 2026</h2>
+
+    <p>Fill in the form to register for our event.</p>
+
+    <form onsubmit="register(event)">
+
+        <label>Full Name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label>Department:</label><br>
+        <input type="text" id="department" required><br><br>
+
+        <button type="submit">Submit Registration</button>
+
+    </form>
+
+    <script>
+        function register(event) {
+            event.preventDefault();
+            window.alert("Thank you for registering for TECH FEST 2026!");
+        }
+    </script>
+
+    <footer>
+        <p>TECH FEST 2026 | Innovation and Technology</p>
+    </footer>
+
+</body>
+</html>
