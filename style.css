@@ -1,0 +1,56 @@
+
+/* Name: Muhammad Shayaan Zahid | Roll No: 26i-3060 | Section: SE-B */
+
+body {
+    background-color: #f2f4f8;
+    color: #172b4d;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    background-color: #172b4d;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #b8860b;
+}
+
+p {
+    font-size: 17px;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #172b4d;
+    padding: 12px;
+}
+
+th {
+    background-color: #172b4d;
+    color: white;
+}
+
+button {
+    background-color: #b8860b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #172b4d;
+}
